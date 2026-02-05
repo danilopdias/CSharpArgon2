@@ -1,0 +1,1 @@
+Uma implementação básica de uma classe em C# que manipula um hash Argon2 utilizando a extensão Konscious.Security.Cryptography, com dois métodos públicos sendo um para o hash a partir de uma string e outro para verificar por exemplo, se a string digitada em um campo coincide com o hash armazenado anteriormente.
