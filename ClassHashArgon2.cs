@@ -8,9 +8,9 @@ namespace HashArgon2
 {
     public class ClassHashArgon2
     {
-        public int EntDegreeOfParallelism = 8; // 4 cores de processador
+        public int EntDegreeOfParallelism = 4; // 4 cores de processador
         public int EntIterations = 2;
-        public int EntMemorySize = 1024;
+        public int EntMemorySize = 262144;
         private byte[] pass = {0x3A, 0xF1, 0x9C, 0x47, 0xE2, 0x0D, 0xB8, 0x6F, 0x54, 0xA9, 0x1E, 0xD3, 0x88, 0x72, 0xC5, 0x0B}; // senha para o hash
 
         private byte[] CriaSalt()
